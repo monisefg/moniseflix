@@ -2,6 +2,8 @@ import React, { useState } from "react";
 import PageDefault from "../../../components/PageDefault";
 import { Link } from "react-router-dom";
 import FormField from "../../../components/FormField";
+import Button from "../../../components/Button";
+import { Title, DivContainer } from "../../../components/TitleButton/styles";
 
 function AddCategory() {
   const initialValues = {
@@ -23,7 +25,7 @@ function AddCategory() {
 
   return (
     <PageDefault>
-      <h1>Cadastro de categoria: {values.name}</h1>
+      <Title className="h1Cadastro">Cadastro de categoria: {values.name}</Title>
       <form
         onSubmit={function handleSubmit(event) {
           event.preventDefault();
@@ -56,7 +58,9 @@ function AddCategory() {
           onChange={handleChange}
         />
 
-        <button>Cadastrar</button>
+        <DivContainer>
+          <Button>Cadastrar</Button>
+        </DivContainer>
       </form>
 
       <ul>
