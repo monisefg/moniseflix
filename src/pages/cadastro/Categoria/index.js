@@ -1,6 +1,6 @@
-import React, { useState } from 'react';
-import PageDefault from '../../../components/PageDefault';
+import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
+import PageDefault from '../../../components/PageDefault';
 import FormField from '../../../components/FormField';
 import Button from '../../../components/Button';
 import { Title, DivContainer } from '../../../components/TitleButton/styles';
@@ -23,9 +23,21 @@ function AddCategory() {
     setValue(event.target.getAttribute('name'), event.target.value);
   }
 
+  useEffect(() => {
+    const URL = 'http://localhost:8080/categories';
+    fetch(URL)
+      .then(async (res) => {
+        const data = await res.json();
+        setCategories([...data]);
+      });
+  }, []);
+
   return (
     <PageDefault>
-      <Title className="h1Cadastro">Cadastro de categoria: {values.name}</Title>
+      <Title className="h1Cadastro">
+        Cadastro de categoria:
+        {values.name}
+      </Title>
       <form
         onSubmit={function handleSubmit(event) {
           event.preventDefault();
@@ -64,9 +76,7 @@ function AddCategory() {
       </form>
 
       <ul>
-        {categories.map((category, index) => {
-          return <li key={`${category}${index}`}>{category.name}</li>;
-        })}
+        {categories.map((category) => <li key={`${category.name}`}>{category.name}</li>)}
       </ul>
 
       <Link to="/">Ir para home</Link>

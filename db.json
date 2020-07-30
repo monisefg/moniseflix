@@ -1,0 +1,16 @@
+{
+  "categories": [
+    {
+      "id": 1,
+      "name": "monise",
+      "description": "testeee",
+      "color": "#117777"
+    },
+    {
+      "id": 2,
+      "name": "filipe",
+      "description": "kktesteee",
+      "color": "#117777"
+    }
+  ]
+}
