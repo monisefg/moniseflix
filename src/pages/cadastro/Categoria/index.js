@@ -1,15 +1,15 @@
-import React, { useState } from "react";
-import PageDefault from "../../../components/PageDefault";
-import { Link } from "react-router-dom";
-import FormField from "../../../components/FormField";
-import Button from "../../../components/Button";
-import { Title, DivContainer } from "../../../components/TitleButton/styles";
+import React, { useState } from 'react';
+import PageDefault from '../../../components/PageDefault';
+import { Link } from 'react-router-dom';
+import FormField from '../../../components/FormField';
+import Button from '../../../components/Button';
+import { Title, DivContainer } from '../../../components/TitleButton/styles';
 
 function AddCategory() {
   const initialValues = {
-    name: "",
-    description: "",
-    color: "#000000",
+    name: '',
+    description: '',
+    color: '#000000',
   };
 
   const [categories, setCategories] = useState([]);
@@ -20,7 +20,7 @@ function AddCategory() {
   }
 
   function handleChange(event) {
-    setValue(event.target.getAttribute("name"), event.target.value);
+    setValue(event.target.getAttribute('name'), event.target.value);
   }
 
   return (
@@ -44,7 +44,7 @@ function AddCategory() {
 
         <FormField
           label="Descrição"
-          type="text"
+          type="textarea"
           name="description"
           value={values.description}
           onChange={handleChange}
