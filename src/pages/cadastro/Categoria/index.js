@@ -24,7 +24,9 @@ function AddCategory() {
   }
 
   useEffect(() => {
-    const URL = 'http://localhost:8080/categories';
+    const URL = window.location.hostname.includes('localhost')
+      ? 'http://localhost:8080/categories'
+      : 'https://moniseflix.herokuapp.com/categories'
     fetch(URL)
       .then(async (res) => {
         const data = await res.json();
