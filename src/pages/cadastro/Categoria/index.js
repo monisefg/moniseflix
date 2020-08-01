@@ -30,7 +30,7 @@ function AddCategory() {
 
   return (
     <PageDefault>
-      <Title className="h1Cadastro">
+      <Title>
         Cadastro de categoria:
         {values.title}
       </Title>

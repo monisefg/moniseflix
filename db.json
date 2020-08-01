@@ -1,6 +1,11 @@
 {
   "categories": [
     {
+      "id": 6,
+      "title": "Meus vídeos",
+      "color": "#6b5be2"
+    },
+    {
       "id": 1,
       "title": "Front End",
       "color": "#6BD1FF",
@@ -40,11 +45,6 @@
         "text": "Formação de Jogos na Alura",
         "url": "https://www.alura.com.br/cursos-online-front-end"
       }
-    },
-    {
-      "id": 6,
-      "title": "Meus vídeos",
-      "color": "#6b5be2"
     }
   ],
   "videos": [

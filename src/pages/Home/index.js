@@ -32,26 +32,28 @@ function Home() {
           </div>
         )}
 
-        {initialValues.length >= 1 && (
-          <>
-            <BannerMain
-              videoTitle={initialValues[5].videos[0].title}
-              url={initialValues[5].videos[0].url}
-              videoDescription="Cover de solos por Monise Gomes. Músicas: Smoke on the water, You really got me, Aces high, Wasted Years."
+        {initialValues.map((category, index) => {
+          if (index === 0) {
+            return (
+              <div key={category.id}>
+
+                <BannerMain
+                  videoTitle={initialValues[0].videos[0].title}
+                  url={initialValues[0].videos[0].url}
+                  videoDescription="Cover de solos por Monise Gomes. Músicas: Smoke on the water, You really got me, Aces high, Wasted Years."
+                />
+
+                <Carousel category={initialValues[0]} />
+              </div>
+            );
+          }
+          return (
+            <Carousel
+              key={category.id}
+              category={category}
             />
-
-            <Carousel category={initialValues[5]} />
-            <Carousel category={initialValues[0]} />
-            <Carousel category={initialValues[1]} />
-
-            <Carousel category={initialValues[2]} />
-
-            <Carousel category={initialValues[3]} />
-
-            <Carousel category={initialValues[4]} />
-          </>
-
-        )}
+          );
+        })}
 
       </AppWraper>
     </PageDefault>
