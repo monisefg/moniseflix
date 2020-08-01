@@ -29,6 +29,25 @@ function getAllWithVideos() {
 
 }
 
+function create(category) {
+  return fetch(`${URL_CATEGORIES}`, {
+    method: 'POST',
+    headers: {
+      'Content-type': 'application/json',
+    },
+    body: JSON.stringify(category)
+  })
+    .then(async (res) => {
+
+      if (res.ok) {
+        const data = await res.json();
+        return data;
+      }
+      throw new Error('Não foi possível cadastrar os dados');
+    });
+
+}
+
 export default {
-  getAllWithVideos, getAll
+  getAllWithVideos, getAll, create,
 };

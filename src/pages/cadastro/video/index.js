@@ -7,6 +7,7 @@ import useForm from '../../../hooks/useForm';
 import Button from '../../../components/Button';
 import videosRepository from '../../../repositories/videos';
 import categoriesRepository from '../../../repositories/categories';
+import config from '../../../config/';
 
 function CadastroVideo() {
   const history = useHistory();
@@ -30,7 +31,9 @@ function CadastroVideo() {
 
       <form onSubmit={(event) => {
         event.preventDefault();
-
+        if (values.password !== config.PASSWORD) {
+          return alert('senha inválida')
+        }
         const chosenCategory = categories.find((category) => category.title === values.category);
 
         const { title, url, description } = values;
@@ -73,6 +76,13 @@ function CadastroVideo() {
           value={values.category}
           onChange={handleChange}
           options={categoryTitles}
+        />
+        <FormField
+          label="Senha"
+          name="password"
+          type="password"
+          value={values.password}
+          onChange={handleChange}
         />
 
         <DivContainer>

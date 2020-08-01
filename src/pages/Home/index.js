@@ -40,7 +40,7 @@ function Home() {
                 <BannerMain
                   videoTitle={initialValues[0].videos[0].title}
                   url={initialValues[0].videos[0].url}
-                  videoDescription="Cover de solos por Monise Gomes. Músicas: Smoke on the water, You really got me, Aces high, Wasted Years."
+                  videoDescription="Aula 1 de Matemática sobre raiz (arrumar)"
                 />
 
                 <Carousel category={initialValues[0]} />

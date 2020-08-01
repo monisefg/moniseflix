@@ -1,220 +1,261 @@
 {
   "categories": [
     {
-      "id": 6,
-      "title": "Meus vídeos",
-      "color": "#6b5be2"
-    },
-    {
       "id": 1,
-      "title": "Front End",
-      "color": "#6BD1FF",
-      "link_extra": {
-        "text": "Formação de Front End na Alura",
-        "url": "https://www.alura.com.br/cursos-online-front-end"
-      }
+      "title": "Matemática",
+      "color": "#6BD1FF"
     },
     {
       "id": 2,
-      "title": "Back End",
-      "color": "#00C86F",
-      "link_extra": {
-        "text": "Cursos de Back End na Alura",
-        "url": "https://www.alura.com.br/cursos-online-programacao"
-      }
+      "title": "Português",
+      "color": "#00C86F"
     },
     {
       "id": 3,
-      "title": "Data Science e Inteligência Artificial",
-      "color": "#9cd33b",
-      "link_extra": {
-        "text": "Cursos de Data Science na Alura",
-        "url": "https://www.alura.com.br/cursos-online-mobile"
-      }
+      "title": "Geografia",
+      "color": "#9cd33b"
     },
     {
       "id": 4,
-      "title": "Filmes",
+      "title": "Ciências",
       "color": "orange"
     },
     {
       "id": 5,
-      "title": "Games",
-      "color": "red",
-      "link_extra": {
-        "text": "Formação de Jogos na Alura",
-        "url": "https://www.alura.com.br/cursos-online-front-end"
-      }
+      "title": "História",
+      "color": "blue"
+    },
+    {
+      "id": 6,
+      "title": "Artes",
+      "color": "yellow"
+    },
+    {
+      "id": 7,
+      "title": "Filosofia",
+      "color": "grey"
+    },
+    {
+      "id": 8,
+      "title": "Educação Física",
+      "color": "red"
+    },
+    {
+      "id": 9,
+      "title": "Inglês",
+      "color": "green"
+    },
+    {
+      "id": 10,
+      "title": "Guitar",
+      "color": "#6b5be2"
     }
   ],
   "videos": [
     {
       "id": 1,
       "categoryId": 1,
-      "title": "SEO com React",
-      "url": "https://www.youtube.com/watch?v=c8mVlakBESE"
+      "title": "Matemática - Aula 1",
+      "url": "https://www.youtube.com/watch?v=mO9Rmc-rcnY"
     },
     {
       "id": 2,
       "categoryId": 1,
-      "title": "O que faz uma desenvolvedora front-end? #HipstersPontoTube",
-      "url": "https://www.youtube.com/watch?v=ZY3-MFxVdEw"
+      "title": "Matemática - Aula 1 (Exercício)",
+      "url": "https://youtu.be/2t71mNOJeHY"
     },
     {
       "id": 3,
       "categoryId": 1,
-      "title": "Componentização com VanillaJS #AluraMais",
-      "url": "https://www.youtube.com/watch?v=LatCKpcOMak"
+      "title": "Matemática - Aula 2",
+      "url": "https://www.youtube.com/watch?v=W_GqEbpEEYI"
     },
     {
       "id": 4,
       "categoryId": 1,
-      "title": "Pare de chutar e aprenda a display: inline #01",
-      "url": "https://www.youtube.com/watch?v=5PS6ku8NzIE"
+      "title": "Matemática - Aula 3",
+      "url": "https://youtu.be/BQec-81ZNi0"
     },
     {
       "id": 5,
       "categoryId": 1,
-      "title": "Template String: Interpolando strings com JavaScript #AluraMais",
-      "url": "https://www.youtube.com/watch?v=ORI_HTXaIw0"
+      "title": "Matemática - Aula 4",
+      "url": "https://www.youtube.com/watch?v=MWxwrA1uPrs&feature=youtu.be"
     },
     {
       "id": 6,
       "categoryId": 1,
-      "title": "Qual é a melhor linguagem de programação? #HipstersPontoTube",
-      "url": "https://www.youtube.com/watch?v=Uh-GNH-t89w"
+      "title": "Matemática - Aula 4 parte 2",
+      "url": "https://www.youtube.com/watch?v=ukhh1orh83I&feature=youtu.be"
     },
     {
       "id": 7,
       "categoryId": 1,
-      "title": "Novidades do Angular v9",
-      "url": "https://www.youtube.com/watch?v=34uHo7hFmG0"
+      "title": "Matemática - Aula 5",
+      "url": "https://www.youtube.com/watch?v=-tYR8AUbqfU"
     },
     {
       "id": 8,
-      "categoryId": 2,
-      "title": "PERCURSO em NÍVEL em ÁRVORE BINÁRIA | Estruturas de Dados #14",
-      "url": "https://www.youtube.com/watch?v=UOK7nS2E9xM"
+      "categoryId": 1,
+      "title": "Matemática - Aula 6",
+      "url": "https://www.youtube.com/watch?v=Goh83b9Psa8"
     },
     {
       "id": 9,
-      "categoryId": 2,
-      "title": "Coders4Tips - S01E04: GitHub CLI - Uma Nova Experiência no Github!",
-      "url": "https://www.youtube.com/watch?v=6o6-bKOZOEY"
+      "categoryId": 1,
+      "title": "Matemática - Aula 7",
+      "url": "https://www.youtube.com/watch?v=GU1AYZfEwZU"
     },
     {
       "id": 10,
-      "categoryId": 2,
-      "title": "Programei 4 robôs que criam vídeos para mim no YouTube",
-      "url": "https://www.youtube.com/watch?v=kjhu1LEmRpY"
+      "categoryId": 1,
+      "title": "Matemática - Aula 8",
+      "url": "https://www.youtube.com/watch?v=OW7Jzc680H8&feature=youtu.be"
     },
     {
       "id": 11,
       "categoryId": 2,
-      "title": "API: Dicionário do Programador",
-      "url": "https://www.youtube.com/watch?v=vGuqKIRWosk"
+      "title": "Português - Aula 1",
+      "url": "https://youtu.be/nWmIBj_gTWY"
     },
     {
       "id": 12,
       "categoryId": 2,
-      "title": "Usando Git Direito",
-      "url": "https://www.youtube.com/watch?v=6OokP-NE49k"
+      "title": "Português - Aula 2",
+      "url": "https://youtu.be/g0PgTxWn9-c"
     },
     {
       "id": 13,
-      "categoryId": 3,
-      "title": "Teste de Turing",
-      "url": "https://www.youtube.com/watch?v=BaPGU4JWa34"
+      "categoryId": 2,
+      "title": "Português - Aula 3",
+      "url": "https://youtu.be/1oH4twu7BQw"
     },
     {
       "id": 14,
-      "categoryId": 3,
-      "title": "O que é Data Science?",
-      "url": "https://www.youtube.com/watch?v=5b9Z8toVaAU&t=9s"
+      "categoryId": 2,
+      "title": "Português - Aula 4",
+      "url": "https://www.youtube.com/watch?v=i4xZ4-gdQGc&feature=youtu.be"
     },
     {
       "id": 15,
-      "categoryId": 3,
-      "title": "Melhor forma de aprender Python",
-      "url": "https://www.youtube.com/watch?v=Gojqw9BQ5qY"
+      "categoryId": 2,
+      "title": "Português - Aula 5",
+      "url": "https://www.youtube.com/watch?v=WENG9hg9LPk"
     },
     {
       "id": 16,
-      "categoryId": 3,
-      "title": "Como ingressar no mercado de Data Science?",
-      "url": "https://www.youtube.com/watch?v=gxyjGmOV540"
+      "categoryId": 2,
+      "title": "Português - Aula 6",
+      "url": "https://www.youtube.com/watch?v=dHrKPXyhnT8&feature=youtu.be"
     },
     {
       "id": 17,
-      "categoryId": 4,
-      "title": "Interestellar",
-      "url": "https://www.youtube.com/watch?v=frD_IiY_A3E"
+      "categoryId": 2,
+      "title": "Português - Aula 7",
+      "url": "https://youtu.be/3wiMfY9QvtU"
     },
     {
       "id": 18,
-      "categoryId": 4,
-      "title": "Gattaca",
-      "url": "https://www.youtube.com/watch?v=Dl0tYLbrhhs"
+      "categoryId": 2,
+      "title": "Português - Aula 8",
+      "url": "https://youtu.be/ZdFJD_36rKQ"
     },
     {
       "id": 19,
-      "categoryId": 4,
-      "title": "A Chegada",
-      "url": "https://www.youtube.com/watch?v=rNciXGzYZms"
+      "categoryId": 3,
+      "title": "Geografia - Aula 1",
+      "url": "https://www.youtube.com/watch?v=-DfOrW2zfRI"
     },
     {
       "id": 20,
-      "categoryId": 4,
-      "title": "Feitiço do Tempo",
-      "url": "https://www.youtube.com/watch?v=zi8d69P9NvI"
+      "categoryId": 3,
+      "title": "Geografia - Aula 2",
+      "url": "https://youtu.be/5izYB6lSEzQ"
     },
     {
       "id": 21,
-      "categoryId": 5,
-      "title": "Final Fantasy 7",
-      "url": "https://www.youtube.com/watch?v=I_ATSCTnUD8"
+      "categoryId": 3,
+      "title": "Geografia - Aula 3",
+      "url": "https://youtu.be/sG9Q1cqwIoE"
     },
     {
       "id": 22,
-      "categoryId": 5,
-      "title": "Assassins Creed Valhalla",
-      "url": "https://www.youtube.com/watch?v=KDfdjB9uL0U"
+      "categoryId": 3,
+      "title": "Geografia - Aula 4",
+      "url": "https://www.youtube.com/watch?v=AyfcXVxrBrs"
     },
     {
       "id": 23,
-      "categoryId": 5,
-      "title": "God of War 4",
-      "url": "https://www.youtube.com/watch?v=FyIwEFXOcaE"
+      "categoryId": 3,
+      "title": "Geografia - Aula 5",
+      "url": "https://youtu.be/oOkoC2iJZWw"
     },
     {
       "id": 24,
-      "categoryId": 5,
-      "title": "Resident Evil 8",
-      "url": "https://www.youtube.com/watch?v=JSapXD9vxYA"
+      "categoryId": 4,
+      "title": "Ciências - Aula 1",
+      "url": "https://youtu.be/ixUccTGOWfs"
     },
     {
       "id": 25,
-      "categoryId": 6,
+      "categoryId": 4,
+      "title": "Ciências - Aula 2",
+      "url": "https://youtu.be/32Ziwlpo5p0"
+    },
+    {
+      "id": 26,
+      "categoryId": 4,
+      "title": "Ciências - Aula 3",
+      "url": "https://www.youtube.com/watch?v=KRF_W6SjxPU&feature=youtu.be"
+    },
+    {
+      "id": 27,
+      "categoryId": 4,
+      "title": "Ciências - Aula 4",
+      "url": "https://www.youtube.com/watch?v=5ozig-UCUJE"
+    },
+    {
+      "id": 28,
+      "categoryId": 4,
+      "title": "Ciências - Aula 5",
+      "url": "https://www.youtube.com/watch?v=BdzoZ_YwYZM&feature=youtu.be"
+    },
+    {
+      "id": 29,
+      "categoryId": 4,
+      "title": "Ciências - Aula 6",
+      "url": "https://www.youtube.com/watch?v=hTLO8F0Avgk&feature=youtu.be"
+    },
+    {
+      "id": 25,
+      "categoryId": 10,
       "title": "Monise Gomes- Medley Solos cover",
       "url": "https://www.youtube.com/watch?v=A_99QYwtyZA"
     },
     {
       "id": 26,
-      "categoryId": 6,
+      "categoryId": 10,
       "title": "Monise Gomes - Smoke on the water (solo)",
       "url": "https://www.youtube.com/watch?v=w30HPRv2s2g"
     },
     {
       "id": 27,
-      "categoryId": 6,
+      "categoryId": 10,
       "title": "Monise Gomes - You Really got me (Van Halen)",
       "url": "https://www.youtube.com/watch?v=JdVvwofLR4I"
     },
     {
       "id": 28,
-      "categoryId": 6,
+      "categoryId": 10,
       "title": "Pink Revolver",
       "url": "https://www.youtube.com/watch?v=JdmWBnxFCGQ"
+    },
+    {
+      "title": "teste",
+      "url": "https://www.youtube.com/watch?v=9s08x-kIxFs",
+      "description": "nnn",
+      "categoryId": 10,
+      "id": 30
     }
   ]
 }

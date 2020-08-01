@@ -5,6 +5,8 @@ import FormField from '../../../components/FormField';
 import Button from '../../../components/Button';
 import { Title, DivContainer } from '../../../components/TitleButton/styles';
 import useForm from '../../../hooks/useForm';
+import config from '../../../config';
+import categoriesRepository from '../../../repositories/categories';
 
 function AddCategory() {
   const initialValues = {
@@ -37,6 +39,11 @@ function AddCategory() {
       <form
         onSubmit={function handleSubmit(event) {
           event.preventDefault();
+          if (values.password !== config.PASSWORD) {
+            return alert('senha inválida')
+          }
+          delete values.password;
+          categoriesRepository.create(values);
           setCategories([...categories, values]);
           clearForm();
         }}
@@ -62,6 +69,14 @@ function AddCategory() {
           type="color"
           value={values.color}
           name="color"
+          onChange={handleChange}
+        />
+
+        <FormField
+          label="Senha"
+          name="password"
+          type="password"
+          value={values.password}
           onChange={handleChange}
         />
 
