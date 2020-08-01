@@ -4,24 +4,18 @@ import PageDefault from '../../../components/PageDefault';
 import FormField from '../../../components/FormField';
 import Button from '../../../components/Button';
 import { Title, DivContainer } from '../../../components/TitleButton/styles';
+import useForm from '../../../hooks/useForm';
 
 function AddCategory() {
   const initialValues = {
-    name: '',
+    title: '',
     description: '',
     color: '#000000',
   };
 
+  const { handleChange, values, clearForm } = useForm(initialValues);
+
   const [categories, setCategories] = useState([]);
-  const [values, setValues] = useState(initialValues);
-
-  function setValue(key, value) {
-    setValues({ ...values, [key]: value });
-  }
-
-  function handleChange(event) {
-    setValue(event.target.getAttribute('name'), event.target.value);
-  }
 
   useEffect(() => {
     const URL = window.location.hostname.includes('localhost')
@@ -38,21 +32,20 @@ function AddCategory() {
     <PageDefault>
       <Title className="h1Cadastro">
         Cadastro de categoria:
-        {values.name}
+        {values.title}
       </Title>
       <form
         onSubmit={function handleSubmit(event) {
           event.preventDefault();
           setCategories([...categories, values]);
-
-          setValues(initialValues);
+          clearForm();
         }}
       >
         <FormField
           label="Nome da Categoria"
           type="text"
-          name="name"
-          value={values.name}
+          name="title"
+          value={values.title}
           onChange={handleChange}
         />
 
@@ -73,12 +66,12 @@ function AddCategory() {
         />
 
         <DivContainer>
-          <Button>Cadastrar</Button>
+          <Button as="button">Cadastrar</Button>
         </DivContainer>
       </form>
 
       <ul>
-        {categories.map((category) => <li key={`${category.name}`}>{category.name}</li>)}
+        {categories.map((category) => <li key={`${category.title}`}>{category.title}</li>)}
       </ul>
 
       <Link to="/">Ir para home</Link>
