@@ -28,7 +28,7 @@
     {
       "id": 6,
       "title": "Artes",
-      "color": "yellow"
+      "color": "darkgoldenrod"
     },
     {
       "id": 7,
@@ -227,35 +227,130 @@
       "url": "https://www.youtube.com/watch?v=hTLO8F0Avgk&feature=youtu.be"
     },
     {
-      "id": 25,
+      "id": 30,
+      "categoryId": 5,
+      "title": "História - Aula 1",
+      "url": "https://youtu.be/F03Hk7KCJow"
+    },
+    {
+      "id": 31,
+      "categoryId": 5,
+      "title": "História - Aula 2",
+      "url": "https://youtu.be/kLR6g9QcM5A"
+    },
+    {
+      "id": 32,
+      "categoryId": 5,
+      "title": "História - Aula 3",
+      "url": "https://www.youtube.com/watch?v=aR6bmFeO290"
+    },
+    {
+      "id": 33,
+      "categoryId": 5,
+      "title": "História - Aula 4",
+      "url": "https://youtu.be/yiPYdYKLN7w"
+    },
+    {
+      "id": 34,
+      "categoryId": 5,
+      "title": "História - Aula 5",
+      "url": "https://youtu.be/m7ogDLevURA"
+    },
+    {
+      "id": 35,
+      "categoryId": 6,
+      "title": "Artes - Aula 1",
+      "url": "https://youtu.be/7ZDpYjyu-yo"
+    },
+    {
+      "id": 36,
+      "categoryId": 6,
+      "title": "Artes - Aula 2",
+      "url": "https://www.youtube.com/watch?v=5_cQdQ7VWyg"
+    },
+    {
+      "id": 37,
+      "categoryId": 6,
+      "title": "Artes - Aula 3",
+      "url": "https://youtu.be/KwJDVRihdZ4"
+    },
+    {
+      "id": 38,
+      "categoryId": 7,
+      "title": "Filosofia - Aula 1",
+      "url": "https://youtu.be/3tsqApvi6gM"
+    },
+    {
+      "id": 39,
+      "categoryId": 7,
+      "title": "Filosofia - Aula 2",
+      "url": "https://www.youtube.com/watch?v=iNatqh06W-g"
+    },
+    {
+      "id": 40,
+      "categoryId": 7,
+      "title": "Filosofia - Aula 3",
+      "url": "https://www.youtube.com/watch?v=V6219X9V5S0"
+    },
+    {
+      "id": 41,
+      "categoryId": 8,
+      "title": "Educação Física - Aula 1",
+      "url": "https://youtu.be/yA9g_RDffKU"
+    },
+    {
+      "id": 42,
+      "categoryId": 8,
+      "title": "Educação Física - Aula 2",
+      "url": "https://www.youtube.com/watch?v=HPzjA-9f6XE"
+    },
+    {
+      "id": 43,
+      "categoryId": 8,
+      "title": "Educação Física - Aula 3",
+      "url": "https://www.youtube.com/watch?v=B8i1R02zwyk&feature=youtu.be"
+    },
+    {
+      "id": 44,
+      "categoryId": 8,
+      "title": "Educação Física - Aula 4",
+      "url": "https://youtu.be/qz7YJcSsZsc"
+    },
+    {
+      "id": 45,
+      "categoryId": 9,
+      "title": "Inglês - Aula 1",
+      "url": "https://youtu.be/zfh1k_DQrE4"
+    },
+    {
+      "id": 46,
+      "categoryId": 9,
+      "title": "Inglês - Aula 2",
+      "url": "https://www.youtube.com/watch?v=wH953NmbOQg"
+    },
+    {
+      "id": 47,
       "categoryId": 10,
       "title": "Monise Gomes- Medley Solos cover",
       "url": "https://www.youtube.com/watch?v=A_99QYwtyZA"
     },
     {
-      "id": 26,
+      "id": 48,
       "categoryId": 10,
       "title": "Monise Gomes - Smoke on the water (solo)",
       "url": "https://www.youtube.com/watch?v=w30HPRv2s2g"
     },
     {
-      "id": 27,
+      "id": 49,
       "categoryId": 10,
       "title": "Monise Gomes - You Really got me (Van Halen)",
       "url": "https://www.youtube.com/watch?v=JdVvwofLR4I"
     },
     {
-      "id": 28,
+      "id": 50,
       "categoryId": 10,
       "title": "Pink Revolver",
       "url": "https://www.youtube.com/watch?v=JdmWBnxFCGQ"
-    },
-    {
-      "title": "teste",
-      "url": "https://www.youtube.com/watch?v=9s08x-kIxFs",
-      "description": "nnn",
-      "categoryId": 10,
-      "id": 30
     }
   ]
 }

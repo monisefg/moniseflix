@@ -40,7 +40,7 @@ function Home() {
                 <BannerMain
                   videoTitle={initialValues[0].videos[0].title}
                   url={initialValues[0].videos[0].url}
-                  videoDescription="Aula 1 de Matemática sobre raiz (arrumar)"
+                  videoDescription="Aula 1 de Matemática sobre raiz enésima de um número real."
                 />
 
                 <Carousel category={initialValues[0]} />

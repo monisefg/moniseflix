@@ -30,7 +30,7 @@ const InputElement = styled.input`
 `;
 
 function FormField({
-  label, name, type, value, onChange, options
+  label, name, type, value, onChange, options,
 }) {
   const fieldId = `id_${name}`;
   const isTextarea = type === 'textarea';
@@ -45,7 +45,8 @@ function FormField({
         {label}
         :
       </label>
-      <InputElement as={tag}
+      <InputElement
+        as={tag}
         id={fieldId}
         type={type}
         value={value}
@@ -80,6 +81,6 @@ FormField.propTypes = {
   type: PropTypes.string,
   value: PropTypes.string,
   onChange: PropTypes.func,
-  options: PropTypes.arrayOf(PropTypes.string)
+  options: PropTypes.arrayOf(PropTypes.string),
 };
 export default FormField;
