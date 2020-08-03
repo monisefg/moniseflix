@@ -44,11 +44,6 @@
       "id": 9,
       "title": "Inglês",
       "color": "green"
-    },
-    {
-      "id": 10,
-      "title": "Guitar",
-      "color": "#6b5be2"
     }
   ],
   "videos": [
@@ -327,30 +322,6 @@
       "categoryId": 9,
       "title": "Inglês - Aula 2",
       "url": "https://www.youtube.com/watch?v=wH953NmbOQg"
-    },
-    {
-      "id": 47,
-      "categoryId": 10,
-      "title": "Monise Gomes- Medley Solos cover",
-      "url": "https://www.youtube.com/watch?v=A_99QYwtyZA"
-    },
-    {
-      "id": 48,
-      "categoryId": 10,
-      "title": "Monise Gomes - Smoke on the water (solo)",
-      "url": "https://www.youtube.com/watch?v=w30HPRv2s2g"
-    },
-    {
-      "id": 49,
-      "categoryId": 10,
-      "title": "Monise Gomes - You Really got me (Van Halen)",
-      "url": "https://www.youtube.com/watch?v=JdVvwofLR4I"
-    },
-    {
-      "id": 50,
-      "categoryId": 10,
-      "title": "Pink Revolver",
-      "url": "https://www.youtube.com/watch?v=JdmWBnxFCGQ"
     }
   ]
 }
